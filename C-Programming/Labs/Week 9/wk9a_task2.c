@@ -9,17 +9,6 @@ Ensure that c1's members have the values 0.0 and 1.0, while c2's members are 1.0
 
 /* Lab 9a Task2 Solution */
 
-/* Write a simple program as follows:
-1)	Declare three structure variables, c1, c2 and c3, each having members 
-   'real' and 'imaginary' each of type double. Ensure that c1's members 
-   have the values 0.0 and 1.0, while c2's members are 1.0 and 0.0 initially 
-   (c3 is not initialized).
-2)	Write statements that copy the members of c2 into c1.
-3)	Write statements that add the corresponding members of c1 and c2, and store 
-   the result in c3.
-
-*/
-
 #include <stdio.h>
 
 int main(void)  {
