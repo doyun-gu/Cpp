@@ -14,20 +14,6 @@ Add a statement that prints out the size of the union, and make sure you can exp
 
 /* Lab 9b Task1 Solution */
 
-/* Write a program that declares a union called 'info' to store the following, 
-   un-initialized, data:
-	char c
-	int integer
-	unsigned int u_integer
-	long long_int
-	unsigned long u_long_int
-	float f
-	double d
-	long double l_d
-
-Add a statement that prints out the size of the union, and explain your result.
-*/
-
 #include <stdio.h>
 
 int main(void)
