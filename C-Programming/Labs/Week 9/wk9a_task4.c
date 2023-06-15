@@ -9,15 +9,6 @@ function printing out the time in the format hh:mm:ss.
 
 /* Lab 9a Task4 Solution */
 
-/* The following function splits the total number of seconds elapsed since the 
-   start of the day, into hours, minutes and seconds:
-			struct time splitTime (long totalSeconds)
-   The function returns the 'time' structure that contains three members: 
-   hours, minutes and seconds (all of type int). 
-   Write a program that includes and calls this function, printing out the time 
-   in the format hh:mm:ss.
-*/
-
 #include <stdio.h>
 
 /* function prototype */
