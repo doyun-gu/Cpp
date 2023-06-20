@@ -1,4 +1,5 @@
-/* The following program is supposed to print a line on the standard output but compilation fails due to several errors:
+/* 
+The following program is supposed to print a line on the standard output but compilation fails due to several errors:
 
 #include <tdio.h>
 
@@ -9,6 +10,7 @@ void man() {
 
 Correct the program to have it display the following output:
 This should work!
+
 */
 
 # include <stdio.h> /* tdio.h -> stdio.h */
