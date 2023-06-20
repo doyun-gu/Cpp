@@ -11,6 +11,7 @@ The expected output (on a modern 64 bits machine) is:
 8
 256
 */
+
 # include <stdio.h>
 int main (void) {
     int a = 5;
