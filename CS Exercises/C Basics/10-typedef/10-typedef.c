@@ -41,6 +41,7 @@ Modify this program to use typedef to alias:
 #include <stdio.h>
 #include <stdlib.h>
 
+/* unsigned long long int into ull */
 typedef unsigned long long int ull;
 
 struct s_rectangle {
@@ -48,6 +49,7 @@ struct s_rectangle {
     ull length;
 };
 
+/* s_rectangle into rectangle */
 typedef struct s_rectangle rectangle;
 
 void print_rectangle(rectangle r) {
