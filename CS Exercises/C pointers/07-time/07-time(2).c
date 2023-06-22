@@ -1,4 +1,3 @@
-#include <sys/time.h>  // needed for gettimeofday
 /*
 Write a C program taking an integer n as command line parameter and sleeping for n seconds. 
 The execution time of the sleep function is measured and displayed. 
@@ -12,6 +11,7 @@ sleep duration: 5.000108 seconds
 */
 
 // This code is only able with Linux
+#include <sys/time.h>  // needed for gettimeofday
 #include <unistd.h> // needed for sleep
 #include <stdio.h>
 #include <stdlib.h>
