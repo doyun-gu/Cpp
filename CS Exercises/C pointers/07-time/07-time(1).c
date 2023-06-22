@@ -10,7 +10,7 @@ sleep duration: 3.000082 seconds
 sleep duration: 5.000108 seconds
 */
 
-// This is for Window
+// This code for Window
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h> // used for gettimeofday
