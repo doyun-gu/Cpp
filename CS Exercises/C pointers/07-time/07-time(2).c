@@ -33,8 +33,7 @@ int main(int argc, char **argv){
     // calculation
     timersub(&stop, &start, &elapsed);
 
-    printf("sleep duration: %lu.%06lu seconds\n", elapsed.tv_sec,
-            elapsed.tv_usec);
+    printf("sleep duration: %lu.%06lu seconds\n", elapsed.tv_sec, elapsed.tv_usec);
 
     return 0;
 }
