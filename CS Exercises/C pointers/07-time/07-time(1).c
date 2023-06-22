@@ -13,8 +13,8 @@ sleep duration: 5.000108 seconds
 // This code for Window
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h> // used for gettimeofday
-#include <Windows.h>   // used when sleeps
+#include <time.h>      // used for clock () function
+#include <Windows.h>   // used for sleep ()
 
 int main (int argc, char **argv) {
 
