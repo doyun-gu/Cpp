@@ -1,0 +1,4 @@
+ world
+this is a test file containing the word  several times
+some lines do not contain that word
+while others do: 
