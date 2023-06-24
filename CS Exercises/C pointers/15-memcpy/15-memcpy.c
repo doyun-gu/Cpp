@@ -29,7 +29,7 @@ int main (int argc, char **argv) {
         return -1;
     }
 
-    // Declare Array
+    // Declare array1, array2
     int *array1, *array2;
 
     // Set Array 1
