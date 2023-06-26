@@ -41,9 +41,10 @@ int main (int argc, char **argv) {
     }
 
     int n = atoi(argv[1]);
-
+    
+    // row
     for (int i=1; i<=n; i++) {
-
+        // column
         for (int j=1; j<=i; j++) {
             printf("*");
         }
