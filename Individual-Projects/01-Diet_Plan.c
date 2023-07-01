@@ -55,7 +55,7 @@ int main () {
     int calories_int = (int)ceil(calories);
     int dietplan;
 
-    printf("Your Bascal Metabolic Rate = %d and Recommended Calories = %d Kcal\n", (BMR_int), (calories_int));
+    printf("Your Bascal Metabolic Rate = %d and Recommended Intaking Calories = %d Kcal\n", (BMR_int), (calories_int));
 
     // Cutting: - 500 Kcal Bulking: +500 Kcal
     printf("input '1' if Cutting otherwise '2': ");
