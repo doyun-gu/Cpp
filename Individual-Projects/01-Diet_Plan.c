@@ -84,6 +84,9 @@ int main () {
 
     int carbon_aday_Kcal, protein_aday_Kcal, fat_aday_Kcal;
 
+    // Convert Kcal into Grams: 1 Kcal = 0.129598 g
+    double carbon_aday_gram, protein_aday_gram, fat_aday_gram;
+
     if (meal_time == 3) {
         carbon_aday_Kcal = carbon_Kcal/3;
         protein_aday_Kcal = protein_Kcal/3;
@@ -107,14 +110,13 @@ int main () {
         return -1;
     }
 
-    // Convert Kcal into Grams: 1 Kcal = 0.129598 g
-    double carbon_aday_gram, protein_aday_gram, fat_aday_gram;
-
     carbon_aday_gram = carbon_aday_Kcal * 0.129598;
     protein_aday_gram = carbon_aday_gram;
     fat_aday_gram = carbon_aday_gram/2;
 
+
     // Output
+    printf("carbon aday: %d, protein aday: %d, fat aday: %d\n", (int)carbon_aday_gram*meal_time, (int)protein_aday_gram*meal_time, (int)fat_aday_gram*meal_time);
     printf("You should have %d Kcal in a day and %d g of carbon, %d g of protein, %d g of fat for every meal", (int)calories_int, (int)carbon_aday_gram, (int)protein_aday_gram, (int)fat_aday_gram);
     
     return 0;
