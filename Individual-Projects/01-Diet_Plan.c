@@ -116,7 +116,7 @@ int main () {
 
 
     // Output
-    printf("carbon aday: %d, protein aday: %d, fat aday: %d\n", (int)carbon_aday_gram*meal_time, (int)protein_aday_gram*meal_time, (int)fat_aday_gram*meal_time);
+    printf("carbon aday: %d g, protein aday: %d g, fat aday: %d g\n", (int)carbon_aday_gram*meal_time, (int)protein_aday_gram*meal_time, (int)fat_aday_gram*meal_time);
     printf("You should have %d Kcal in a day and %d g of carbon, %d g of protein, %d g of fat for every meal", (int)calories_int, (int)carbon_aday_gram, (int)protein_aday_gram, (int)fat_aday_gram);
     
     return 0;
