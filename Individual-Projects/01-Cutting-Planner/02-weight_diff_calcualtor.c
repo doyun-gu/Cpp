@@ -26,4 +26,5 @@ int main (int argc, char **argv) {
     printf("Total Lost: %.2lf kg and this is %.2lf %%\n", total_dweight, total_rate);
     printf("Day Lost: %.2lf kg\n", dweight);
 
+    return 0;
 }
