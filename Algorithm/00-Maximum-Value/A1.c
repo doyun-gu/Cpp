@@ -11,9 +11,11 @@ int main (void) {
     printf("Value c: "); scanf("%d", & c);
 
     int max = a;
+    
     if (b > max) {
         max = b;
     }
+    
     if (c > max) {
         max = c;
     }
