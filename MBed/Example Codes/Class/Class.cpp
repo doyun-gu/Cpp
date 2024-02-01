@@ -1,5 +1,5 @@
 /*
-EEEN20011 - Example Program â€“ LED Wrapper Class
+MCE - Example Program â€“ LED Wrapper Class
 
 This program uses the Nucleo-64 board and the Application Shield.
 The program demonstrates the construction of a wrapper class to create the functionality of an LED from the DigitalOut API provided with Mbed.
