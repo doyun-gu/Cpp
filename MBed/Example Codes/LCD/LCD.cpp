@@ -1,5 +1,5 @@
 /*
-EEEN20011 - Lecture 4 Example Program
+MCE - Lecture 4 Example Program
 
 This program uses the Nucleo-64 board and the Application Shield.
 The program draws the University of Manchester logo on the LCD screen. 
