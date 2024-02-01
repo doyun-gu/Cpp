@@ -1,5 +1,5 @@
 /*
-EEEN20011 - Lecture 9 Example Program
+MCE - Lecture 9 Example Program
 
 This program uses the Nucleo-64 board and the Application Shield.
 The program repeatedly measures the voltage on pin A0 and displays it on the LCD screen
