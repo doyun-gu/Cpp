@@ -1,4 +1,5 @@
 /*
+EEEN20011 - Lecture 18 Example Program 1
 
 This program uses the Nucleo-64 board and the Application Shield.
 The program uses the virtual serial port that the Nucleo creates when connected to a PC
