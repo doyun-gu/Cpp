@@ -1,5 +1,5 @@
 /*
-EEEN20011 - Lecture 20 Example Program
+MCE - Lecture 20 Example Program
 
 This program uses the Nucleo-64 board and the Application Shield.
 The program is used to illustrate the difficulty in observing when a stack overflow 
