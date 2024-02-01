@@ -1,5 +1,5 @@
 /*
-EEEN20011 - Lecture 3 Example Program
+MCE - Lecture 3 Example Program
 
 This program uses the Nucleo-64 board only. The Application Shield should not be plugged in.
 The program turns the on-board led (LD2) on whenever the button B1 is pressed.
