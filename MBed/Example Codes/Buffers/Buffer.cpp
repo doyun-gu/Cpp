@@ -1,4 +1,5 @@
 /*
+EEEN20011 - Lecture 19 Example Program 1 - Buffers
 
 This program is not designed to run on the Nucleo board. It will run on a PC-based C++ compiler.
 You may wish to modify this program to run on the Nucleo, using the LCD to output the printf statements.
@@ -13,6 +14,7 @@ The capacity of the buffer is printed to the terminal, and four values are added
 The code is then repeated. However, this time a further three values are added to the buffer (9, 10 and 11). This exceeds the capacity of the buffer, and consequently overwrites some of the buffer values. When the values are emptied from the buffer it is possible to see that the numbers 1, 2 and 3 have been overwritten by 9, 10 and 11.
 
 A second buffer is created, which shows the effect where data is added and removed without filling the buffer.
+
 
 */
 
