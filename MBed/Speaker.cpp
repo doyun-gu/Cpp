@@ -1,5 +1,3 @@
-#include "mbed.h"
-
 // Speaker Class
 class Speaker{
     private:
