@@ -1,5 +1,5 @@
 /*
-EEEN20011 - Example Program â€“ Function Overloading
+MCE - Example Program â€“ Function Overloading
 
 This program uses the Nucleo-64 board and the Application Shield.
 The program demonstrates function overloading with the use of two functions named â€˜sumâ€™, each of which takes a different number of parameters.
