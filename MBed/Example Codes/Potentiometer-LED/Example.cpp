@@ -1,5 +1,5 @@
 /*
-EEEN20011 - Example Program“ Dimming an LED with a potentiometer
+MCE - Example Program“ Dimming an LED with a potentiometer
 
 This program uses the Nucleo-64 board and the Application Shield.
 The program uses the previously introduced LED class. It adds an implementation of a wrapper class to determine the functionality of a potentiometer, based on the AnalogIn API provided through Mbed.
