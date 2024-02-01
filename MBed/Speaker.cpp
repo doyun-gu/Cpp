@@ -35,24 +35,3 @@ class Speaker{
             }
         }
 };
-
-
-int main() {
-    // Speaker Object: my_Speaker
-    Speaker my_Speaker (D6);
-
-    // Set Frequency
-    float freq = 1100.0;
-
-    // Find Time
-    // Divided by 2 to get the half period
-    float time = 0.5*1.0/freq;
-
-    while (1) {
-        // Toggle the speaker state
-        my_Speaker.toggle();
-
-        
-        wait(time);
-    };
-}
