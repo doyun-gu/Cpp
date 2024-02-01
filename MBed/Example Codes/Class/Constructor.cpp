@@ -1,5 +1,5 @@
 /*
-EEEN20011 - Lecture 6 Example Program 1
+MCE - Lecture 6 Example Program 1
 
 This program is not designed to run on the Nucleo board. It will run on a PC-based C++ compiler.
 You may wish to modify this program to run on the Nucleo, using the LCD to output the printf statements.
