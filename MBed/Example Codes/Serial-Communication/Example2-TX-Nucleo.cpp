@@ -1,5 +1,5 @@
 /*
-EEEN20011 - Lecture 18 Example Program - Transmit Nucleo
+MCE - Lecture 18 Example Program - Transmit Nucleo
 
 This program uses the Nucleo-64 board and the Application Shield.
 The program is used in conjunction with the corresponding 'receive' program, and
